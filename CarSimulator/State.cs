@@ -5,33 +5,33 @@ namespace CarSimulator
     {
         public double position;
         public double velocity;
-        public double accelation;
+        public double acceleration;
         public double time;
 
         //implement methods like set, constructors (if applicable)
 
         public State() //default constructor with 0
         {
-            position = 0.0;
-            velocity = 0.0;
-            accelation = 0.0;
-            time = 0.0;
+            this.position = 0.0;
+            this.velocity = 0.0;
+            this.acceleration = 0.0;
+            this.time = 0.0;
         }
 
-        public State(double pos, double vel, double ac, double t) // construtor with parameters
+        public State(double position, double velocity, double acceleration, double time) // construtor with parameters
         {
-            position = pos;
-            velocity = vel;
-            accelation = ac;
-            time = t;
+            this.position = position;
+            this.velocity = velocity;
+            this.acceleration = acceleration;
+            this.time = time;
         }
 
-        public void set(double pos, double vel, double ac, double t)  //set method
+        public void set(double position, double velocity, double acceleration, double time)  //set method
         {
-            position = pos;
-            velocity = vel;
-            accelation = ac;
-            time = t;
+            this.position = position;
+            this.velocity = velocity;
+            this.acceleration = acceleration;
+            this.time = time;
         }
        
     }
