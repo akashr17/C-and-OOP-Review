@@ -15,7 +15,7 @@ namespace CarSimulator
 
             Tesla[] myTeslas = new Tesla[fleetNumberPerType].Select(tesla => new Tesla("Tesla", 1500, 1000, 0.51)).ToArray();
             Prius[] myPriuses = new Prius[fleetNumberPerType].Select(prius => new Prius("Prius", 1000, 750, 0.43)).ToArray();
-            Mazda[] myMazdas = new Mazda[fleetNumberPerType].Select(mazda => new Mazda("Mazda", 1340, 850, 0.31)).ToArray();
+            Mazda[] myMazdas = new Mazda[fleetNumberPerType].Select(mazda => new Mazda("Mazda", 1340, 600, 0.31)).ToArray();
             Herbie[] myHerbies = new Herbie[fleetNumberPerType].Select(herbie => new Herbie("Herbie", 1500, 750, 0.6)).ToArray();
 
             // implementation for 1 large list 

@@ -135,7 +135,7 @@ namespace CarSimulator
 
             // calculate the new values
             double v = Physics1D.compute_velocity(v0, a, dt);
-            double fd = -0.5 * 1.225 * this.dragArea * v * v; // negative air resistance
+            double fd = -0.5 * 1.225 * this.dragArea * v ; // the drag force is negative (helps call acclerate) and only uses 1 v (was too fast with v^2)
             double x = Physics1D.compute_position(x0, v, dt);
             a = Physics1D.compute_acceleration(engineForce - fd, mass);
 
