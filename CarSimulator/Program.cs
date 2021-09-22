@@ -62,6 +62,14 @@ namespace CarSimulator
                 // print the time and current state
                 Console.WriteLine("t:{0}, a:{1}, v:{2}, x1:{3}, fd:{4} ", t, a, v, x1, fd);
             }
+
+            // Testing State class for Part B Q1
+            /*State test = new State();
+            test.set(1.2, 20, 5.4, 12);
+            Console.WriteLine(test.time);*/
+            Car test = new Car("tesla", 20, 50, 0.3);
+            Console.WriteLine(test.getMass());
+           
         }
     }
 }
