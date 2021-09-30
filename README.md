@@ -8,6 +8,9 @@ usemath: true
 
 ---
 
+GITHUB NAME: akashr17
+First and Last Name: Akashdeep Randhawa
+
 # Lab 1 -- C# Review
 
 In this lab, we will get some practice with C\#\# and object oriented programming.  Our test-case is a simplified 1D car simulator.  To help get you started, some of the code is posted on GitHub [here (https://github.com/alimousavifar/lab1)](https://github.com/alimousavifar/lab1).
