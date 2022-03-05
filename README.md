@@ -8,8 +8,7 @@ usemath: true
 
 ---
 
-GITHUB NAME: akashr17
-First and Last Name: Akashdeep Randhawa
+
 
 # Lab 1 -- C# Review
 
